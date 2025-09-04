@@ -1,0 +1,20 @@
+{
+  "name": "testnodesong",
+  "version": "1.0.0",
+  "main": "upload.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node upload.js",
+    "test": "node upload.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.5.0",
+    "multer": "^2.0.2"
+  }
+}
