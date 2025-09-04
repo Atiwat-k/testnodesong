@@ -1,11 +1,11 @@
 {
   "name": "testnodesong",
   "version": "1.0.0",
-  "main": "upload.js",
+  "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node upload.js",
-    "test": "node upload.js"
+    "start": "node index.js",
+    "test": "node index.js"
   },
   "keywords": [],
   "author": "",
