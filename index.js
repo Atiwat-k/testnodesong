@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 // Firebase Admin
-const serviceAccount = require("./serviceAccountKey.json");
+const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
 
 // นำ router เข้ามา
